@@ -3,6 +3,15 @@
   min-height: 100vh;
   background: white;
 }
+
+.pointer {
+  cursor: pointer;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background: white;
+}
 .profile-container .title {
   font-size: 24px;
   font-weight: 600;
@@ -108,7 +117,9 @@ p {
   margin: auto !important;
 }
 
-
+.contact-form {
+  padding-top: 100px;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
